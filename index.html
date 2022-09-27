@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="alarm.css">
+</head>
+<body>
+    <div class="outer">
+        <label id="displayAlarm"></label>
+        <div class="inner">
+            <input type="text" id="hrs" placeholder="HH" onfocus="this.value=''" pattern="\d*" maxlength="2">
+            <input type="text" id="mins" placeholder="MM" onfocus="this.value=''" pattern="\d*" maxlength="2">
+            <select name="extension" id="ext">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+            <br />
+            <div class="btns">
+                <button type="submit" id="set">Set</button>
+                <button type="submit" id="snooze">Snooze (+5)</button>
+                <button type="submit" id="stop">Stop</button>
+                <button type="submit" id="clear">clear</button>
+            </div>
+        </div>
+        <audio id="audio">
+            <source src="./assets/alarm.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script src="alarm.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#audio {
+    display: none;
+}
+.outer {
+    margin-top: 40vh;
+    text-align: center;
+}
+label {
+    font-size: 50px;
+    font-weight: 600;
+}
+.inner, .btns {
+    margin-top: 30px;
+}
+input, select, button {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    color: gray;
+}
+input {
+    width: 50px;
+    caret-color: transparent;
+}
+select {
+    width: 70px;
+}
+button {
+    width: 80px;
+}
+#listAlarms {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    max-height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+#listAlarms::-webkit-scrollbar {
+    width: 0px;
+}
