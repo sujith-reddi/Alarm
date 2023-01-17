@@ -10,4 +10,4 @@
 ![image](https://user-images.githubusercontent.com/31003697/192627583-d76a6576-a167-4be7-8ac1-27d25bae1441.png)
 
 
-**We accept Pull Requests! If you have a update or shortcut you think is useful and should be added, contribute to our repo on [GitHub](https://github.com/sujith-reddi/Alarm/)!**
+**We accept Pull Requests! If you have a update or shortcut you think is useful and should be added, contribute to my repo on [GitHub](https://github.com/sujith-reddi/Alarm/)!**
